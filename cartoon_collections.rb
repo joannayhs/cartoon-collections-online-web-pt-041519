@@ -19,6 +19,6 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.collect do |item|
-    item == cheese_types ? item: nil 
+    item == cheese_types ? item : nil 
 end      
 end
