@@ -22,7 +22,7 @@ def find_the_cheese(array)
    if array.include?(cheese) 
     return cheese
    else 
-     NIL
+     nil
    end
   end
 end
