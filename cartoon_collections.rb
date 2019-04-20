@@ -23,7 +23,7 @@ def find_the_cheese(array)
       if list_item == cheese 
         return list_item 
       else 
-        nil
+        return nil
       end
     end 
   end
