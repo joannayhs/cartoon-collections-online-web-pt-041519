@@ -23,6 +23,8 @@ def find_the_cheese(array)
       binding.pry
     if list_item == cheese 
       puts list_item
+    else 
+      nil 
       end 
     end
   end
