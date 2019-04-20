@@ -21,7 +21,7 @@ def find_the_cheese(array)
   array.each do |list_item|
     cheese_types.each do |cheese|
       if list_item == cheese 
-        print list_item 
+        return list_item 
       else 
         nil
       end
