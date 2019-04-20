@@ -21,7 +21,6 @@ def find_the_cheese(array)
   array.each do |list_item|
     cheese_types.each do |cheese|
       list_item == cheese ? list_item : nil
-      end 
-    end
+    end 
   end
 end
