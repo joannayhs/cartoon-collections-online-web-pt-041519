@@ -14,12 +14,7 @@ end
 
 def long_planeteer_calls(array)
   array.each do |call|
-    if call.length > 4 
-      binding.pry
-      true 
-    else 
-      false
-    end
+  
   end
 end
 
