@@ -18,7 +18,7 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.collect.flatten do |cheese|
+  cheese_types.collect do |cheese|
    if array.include?(cheese) 
     return cheese
    else 
