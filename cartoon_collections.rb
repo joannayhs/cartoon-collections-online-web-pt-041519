@@ -21,4 +21,6 @@ def find_the_cheese(array)
   array.each do |list_item|
     if list_item == cheese_types 
       binding.pry
+    end
+  end
 end
