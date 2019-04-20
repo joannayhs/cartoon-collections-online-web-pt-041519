@@ -1,3 +1,5 @@
+require "pry"
+
 def roll_call_dwarves(array) 
   array.each_with_index do |dwarf, index|
     puts "#{index + 1}. #{dwarf}"
@@ -13,6 +15,7 @@ end
 def long_planeteer_calls(array)
   array.each do |call|
     if call.length > 4 
+      binding.pry
       true 
     else 
       false
